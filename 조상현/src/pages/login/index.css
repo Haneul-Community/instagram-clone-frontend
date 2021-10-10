@@ -1,0 +1,124 @@
+.App {
+    text-align: center;
+  }
+
+.card-img{
+    height: 70px;
+    width : 200px;
+    margin-left:10px;
+    margin-right:10px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.one{
+    display: grid;
+    place-items: center;
+    width : 400px;
+    height: 300px;
+  }
+
+.image{
+    width : 300px;
+    height: 100px;
+    margin-bottom: 50px;
+}
+
+.my-box{
+    border: 1px solid rgba(138, 136, 136, 0.192);
+    height : 460px;
+    width: 400px;
+    padding :20px 40px 20px 40px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.loginbutton{
+    background-color:rgb(103, 171, 235);
+    border: 1px solid rgba(103, 171, 235);
+    color:aliceblue;
+    width: 300px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.container{
+    margin: 0 auto;
+}
+
+.hr-sect {
+    display: flex;
+    flex-basis: 100%;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+    margin: 8px 0px;
+  }
+  .hr-sect::before,
+  .hr-sect::after {
+    content: "";
+    flex-grow: 1;
+    background: rgba(0, 0, 0);
+    height: 1px;
+    font-size: 0px;
+    line-height: 0px;
+    margin: 0px 16px;
+  }
+
+.mini-box{
+    border: 1px solid rgba(138, 136, 136, 0.192);
+    height : 100px;
+    width: 400px;
+    padding :20px 40px 20px 40px;
+    margin: 0 auto;
+    margin-top: 10px;
+    
+}
+
+.facebook{
+    margin-top: 20px
+}
+
+.foget_password{
+    margin-top: 20px
+}
+
+
+.assign{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration:none;
+    font-weight: 700;
+
+}
+
+.페북{
+    text-decoration:none;
+    color: rgb(5, 3, 105);
+
+}
+
+.assignbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.비밀번호{
+    text-decoration:none;
+    color: rgb(0, 0, 0);
+    font-size: small;
+}
+
+.account{
+    background-color:rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    color:rgb(0, 17, 255);
+    font-weight: 700;
+}
